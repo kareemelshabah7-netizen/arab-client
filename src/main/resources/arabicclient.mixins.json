@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.arabicclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "WorldRendererMixin",
+    "PlayerListEntryMixin",
+    "DebugHudMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

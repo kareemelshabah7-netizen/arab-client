@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "arabicclient",
+  "version": "${version}",
+  "name": "Arabic Client",
+  "description": "مود عربي لتحسين أداء ماين كرافت (FPS) مع هوية بصرية عربية.",
+  "authors": [
+    "YourNameHere"
+  ],
+  "contact": {
+    "homepage": "https://example.com"
+  },
+  "license": "MIT",
+  "icon": "assets/arabicclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.arabicclient.ArabicClient"
+    ],
+    "client": [
+      "com.arabicclient.ArabicClientMod"
+    ]
+  },
+  "mixins": [
+    "arabicclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
